@@ -39,6 +39,10 @@ a {
     color: rgba(0, 0, 0, 0.54);
 }
 
+nav img {
+    opacity: 0.5;
+}
+
 .signin {
     background-color: rgb(66, 133, 244);
     display: inline-block;
@@ -66,10 +70,29 @@ footer {
     bottom: 0px;
     left: 0px;
     right: 0px;
-
 }
 
-input[type=text]{
+input[type=search] {
+    border: 1px solid rgb(228, 228, 228);
+    padding: 12.5px 40px;
+    width: 30%;
+    margin: 20px 0;
+    border-radius: 25px;
+    background-image: url('../images/search_bar.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2.5% center;
+}
+
+input[type=button] {
+    background-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    height: 36px;
+    padding: 5px 16px;
+    font-size: 14px;
+    margin: 10px 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 footer section {
